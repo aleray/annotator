@@ -508,10 +508,10 @@ var Editor = exports.Editor = Widget.extend({
     _onTextareaKeydown: function (event) {
         if (event.which === 27) {
             // "Escape" key => abort.
-            this.cancel();
+            // this.cancel();
         } else if (event.which === 13 && !event.shiftKey) {
             // If "return" was pressed without the shift key, we're done.
-            this.submit();
+            // this.submit();
         }
     },
 
